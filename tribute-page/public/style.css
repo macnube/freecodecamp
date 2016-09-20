@@ -1,5 +1,5 @@
-.center-col {
-  background-color: #eee;
+.container-fluid {
+	background-color: #292E37;
 }
 
 .border {
@@ -22,5 +22,21 @@
 
 .carousel {
 	height: 500px;
-	background-color: black;
+	background-color: white;
+}
+
+.carousel-container {
+	background-color: white;
+}
+
+.carousel-title h1 {
+	color: #292E37;
+	font-family: "Lobster", sans-serif;
+	font-size: 90px;
+}
+
+.content-container h3 {
+	color: white;
+	font-family: "Cabin", sans-serif;
+	font-size: 40px;
 }
