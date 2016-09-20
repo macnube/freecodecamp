@@ -14,12 +14,40 @@
 	color: white;
 	font-family: "Cabin", sans-serif;
 	font-size: 25px;
-	width: 50%;
+	width: 45%;
 }
 
 .timeline h4 {
 	font-family: "Lobster", sans-serif;
 	font-size: 35px;
+}
+
+.works {
+	float: right;;
+	width: 40%;
+	margin-left: 5%;
+}
+
+.works h4 {
+	font-family: "Lobster", sans-serif;
+	font-size: 35px;
+	color: white;
+	margin-top: 60px;
+}
+
+.books div {
+	position: relative;
+	top: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+
+.film div {
+	position: relative;
+	top: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
 }
 
 .img-top {
@@ -50,4 +78,11 @@
 	color: white;
 	font-family: "Cabin", sans-serif;
 	font-size: 40px;
+}
+
+.footer h2 {
+	margin-top: 100px;
+	color: white;
+	font-size: 40px;
+	font-family: "Cabin", sans-serif;
 }

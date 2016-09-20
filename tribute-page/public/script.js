@@ -10,6 +10,24 @@ $(document).ready( function() {
 		"autoplaySpeed": 1500,
 	});
 
+	$(".books").slick({
+		"dots": false,
+		"pauseOnDotsHover": true,
+		"variableWidth": true,
+		"slidesToShow": 1,
+		"centerMode": true,
+		"autoplaySpeed": 1500,
+		});
+
+	$(".film").slick({
+		"dots": false,
+		"pauseOnDotsHover": true,
+		"variableWidth": true,
+		"slidesToShow": 1,
+		"centerMode": true,
+		"autoplaySpeed": 1500,
+		});
+
 	var carouselImages = Array.prototype.slice.call($(".carousel-image"));
 
 	carouselImages.forEach(function(img) {
