@@ -14,3 +14,13 @@
 .img-top {
   padding: 1% 1% 0% 1%;
 }
+
+.carousel img {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.carousel {
+	height: 500px;
+	background-color: black;
+}
