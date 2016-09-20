@@ -7,8 +7,19 @@
   margin: 0px 10% 0px 10%;
 }
 
-#timeline {
-  margin-top: 30px;
+.timeline {
+	margin-top: 50px;
+	position: relative;
+	display: inline-block;
+	color: white;
+	font-family: "Cabin", sans-serif;
+	font-size: 25px;
+	width: 50%;
+}
+
+.timeline h4 {
+	font-family: "Lobster", sans-serif;
+	font-size: 35px;
 }
 
 .img-top {
