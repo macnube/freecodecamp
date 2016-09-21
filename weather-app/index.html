@@ -10,3 +10,53 @@
 	<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
 	<script type="text/javascript" src="public/script.js"></script>
 </head>
+
+<body>
+	<div class="container-fluid">
+	  <div class="row main">
+	    <div class="col-md-6 col-md-offset-3 app-wrapper">
+	      <div class="circle-lg circle-main">
+	        <div class="text-main">
+	          <h1 class="text-center" id="city"></h1>
+	          <h1 class="text-center" id="country"></h1>
+	          <h1 class="text-center" id="temp"></h1>
+	          <h1 class="text-center" id="description"></h1>
+	        </div>
+	      </div>
+	      <div class="circle-md circle-wind">
+	        <div class="north">
+	          <h2>N</h2>
+	        </div>
+	        <div class="east">
+	          <h2>E</h2>
+	        </div>
+	        <div class="south">
+	          <h2>S</h2>
+	        </div>
+	        <div class="west">
+	          <h2>W</h2>
+	        </div>
+	        <div class="arrow">
+	          <i class="fa fa-arrow-up text-center" id="windDir" aria-hidden="true"></i>
+	        </div>
+	        <div class="text-wind">
+	          <h1 class="text-center" id="windSpeed"></h1>
+	          <h1 class="text-center">Knots</h1>
+	        </div>
+	      </div>
+	      <div class="circle-md circle-humidty">
+	        <div class="text-humidity">
+	          <h1 class="text-center" id="humidity"></h1>
+	          <h1 class="text-center">Humidity</h1>
+	        </div>
+	      </div>
+	      <div class="circle-md circle-clouds">
+	        <div class="text-clouds">
+	          <h1 class="text-center" id="clouds"></h1>
+	          <h1 class="text-center">Clouds</h1>
+	        </div>
+	      </div>
+	    </div><!--close app-wrapper-->
+	  </div><!--close main-->
+	</div><!--close container fluid-->
+</body>
