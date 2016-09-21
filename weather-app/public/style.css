@@ -1,0 +1,134 @@
+h1, h2{
+  color: white;
+  font-family: 'Impact';
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  color: #645E9D;
+  font-family: 'Impact';
+  margin: 0 0 0 0;
+}
+
+.text-main {
+  margin-top: 70px;
+}
+
+.circle-wind h1 {
+  margin: 0 0 0 0;
+}
+
+.arrow {
+  position: absolute;
+  left: 50%;
+  margin-left: -13px;
+  margin-top: -16px;
+}
+
+.arrow i {
+  position: absolute;
+  color: white;
+  height: 98px;
+  width: 26px;
+  transform-origin: bottom center;
+}
+
+.north {
+  position: absolute;
+  left: 50%;
+  margin-left: -8.1px;
+  
+}
+
+.east {
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  margin-top: -16.5px;
+}
+
+.west {
+  position: absolute;
+  left: 82%;
+  top: 50%;
+  margin-top: -16.5px;
+}
+
+.south {
+  position: absolute;
+  left: 50%;
+  margin-left: -8.5px;
+  top: 80%;
+}
+
+.text-wind {
+  margin-top: 45px;
+}
+
+.text-humidity {
+  margin-top: 40px;
+}
+
+.text-clouds {
+  margin-top: 40px;
+}
+
+.app-wrapper {
+  height: 500px;
+  margin-top: 200px;
+}
+
+.circle-lg {
+  background-color: rgba(108,150,157,.3);
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+}
+
+.circle-md {
+  background-color: rgba(108,150,157,.3);
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 18px rgba(41,46,55, .9) solid;
+}
+
+.circle-main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -175px;
+  margin-top: -175px;
+  border: 20px #292E37 solid;
+}
+
+.circle-wind {
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  margin-top: -160px;
+  top: 0%;
+}
+
+.circle-humidty {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: 169px;
+  margin-top: 55px;
+}
+
+.circle-clouds {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -369px;
+  margin-top: 55px;
+}
+
+.main {
+  background-image: url('https://mkxrog.bn1302.livefilestore.com/y3mgSzzQtXxlpNPc3PuWF5zeZyQufS4utFNUNVCzFI10QIjZ3w_IpQu0t0W3LxCO8tQCxqfkSQFxEi8nBn34N_hDTHAHfKIuZRVuGvqz7Kxi4LjMi1hqcA7uXdOBU3aEjDSB8vh4n2RYqrndp3WkcsH_S4yu2uxda2vkryIsUqJRDs?width=1920&height=1200&cropmode=none');
+  height: 1000px;
+  background-size: cover;
+}
