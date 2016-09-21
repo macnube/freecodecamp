@@ -1,0 +1,67 @@
+.main {
+  background-color: #292E37;
+  margin-top: 16vh;
+  border-radius: 10px;
+}
+
+.signature {
+  padding-bottom: 0px;
+}
+
+.glyphicon-cloud {
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+p, h1, h2, span {
+  color:white;
+  font-family: 'Anton', sans-serif;
+}
+
+.quote-main p{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.quote-bottom {
+  padding-bottom: 40px;
+}
+
+.quote-top p, .quote-bottom p {
+  font-size: 5em;
+  line-height: 10px;
+}
+
+.quote-mark {
+  padding: 0px;
+  margin-top: 35px;
+}
+
+i {
+  color: white;
+  padding-right: 5px;
+  position:relative;
+  top: 10px;
+  
+}
+
+.footer {
+  position: absolute;
+  bottom: 5px;
+  left: 5%;
+  width: 95%;
+}
+
+.footer button {
+  background: transparent;
+  color: white;
+  border: 2px solid;
+  border-radius: 5px;
+  font-family: 'Impact', sans-serif;
+}
+
+.line {
+  height: 4px;
+  background: white;
+}
