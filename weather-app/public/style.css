@@ -129,6 +129,6 @@ h2 {
 
 .main {
   background-image: url('https://mkxrog.bn1302.livefilestore.com/y3mgSzzQtXxlpNPc3PuWF5zeZyQufS4utFNUNVCzFI10QIjZ3w_IpQu0t0W3LxCO8tQCxqfkSQFxEi8nBn34N_hDTHAHfKIuZRVuGvqz7Kxi4LjMi1hqcA7uXdOBU3aEjDSB8vh4n2RYqrndp3WkcsH_S4yu2uxda2vkryIsUqJRDs?width=1920&height=1200&cropmode=none');
-  height: 1000px;
+  min-height: 100vh;
   background-size: cover;
 }
